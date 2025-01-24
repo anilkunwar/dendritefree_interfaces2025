@@ -7,8 +7,7 @@
 2. Multiscale computation methods
    
    a. MD and DFT methods
-
-   
+   b. Phase field method 
 
 4. Data-driven methods
 
