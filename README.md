@@ -19,3 +19,6 @@ b. Publications trends datasets
 4. Data-driven methods
 
 5. Integrated methods
+
+
+# How to cite this work: 
