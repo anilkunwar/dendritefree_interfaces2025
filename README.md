@@ -1,4 +1,10 @@
-# dendritefree_interfaces2025
+# Viewpoint on the roadmap to attaining dendrite-free interfaces
+
+# Wordmaps and graphs for understanding the research landscape of Lithium-Ion Batteries and Interfacial Dendrites
+
+a. Bibliometric datasets
+
+b. Publications trends datasets
 
 # Major methodologies to study the dendritic interfaces and subsequent prevention strategies
 
