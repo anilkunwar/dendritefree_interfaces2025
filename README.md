@@ -20,6 +20,9 @@ b. Publications trends datasets
 
 5. Integrated methods
 
+# Theory and Mechanisms for Electrodeposits Growth at Interface
+[![battery](https://img.shields.io/badge/dendritemodels1-streamlit-red)](https://metal-deposition-mechanisms.streamlit.app/)  (Comparison of Models for Applications and Limitations)
+
 # Roadmap and Battery Vision
 [![battery](https://img.shields.io/badge/roadmap1-streamlit-red)](https://dendritefree-batteries-future-roadmap1.streamlit.app/)  (basic sketch)
    
