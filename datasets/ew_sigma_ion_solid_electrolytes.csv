@@ -1,5 +1,5 @@
 SN,Electrolyte,EW (V),Ion-conductivity (mS cm-1),Ref.(doi)
-1.,"Poly(ethylene oxide) (PEO)",3.8,0.25,"[10.1016/S0378-7753(00)00533-4],[10.1073/pnas.1600422113]"
+1.,"Poly(ethylene oxide) (PEO)",3.8,0.25,"[10.1016/S0378-7753(00)00533-4],,[10.1073/pnas.1600422113]"
 2.,"Polyacrylonitrile (PAN)",>4,3,appetecchi2001composite
 3.,"Poly(trimethylene carbonate) (PTMC)",>5,1e-4,sun2014polycarbonate
 4.,"Poly(vinylene carbonate) (PVCA)",>4.5,0.078,huang2021situ
