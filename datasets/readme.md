@@ -1,4 +1,7 @@
 The tabular datasets of :
 1. ELectrochemical window (EW) and ionic conductivity for solid electrolyte materials
-2. ELectrochemical window for liquid electrolyte materials
-3. 
+2. Solute, solvent, EW and ionic conductivity for liquid electrolyte materials
+3. Strategies to prevent dendrite occurrence or prevent dendrite growth 
+4. Decathlon of intefacial stability
+     a. Critical current density
+     b. N ...
