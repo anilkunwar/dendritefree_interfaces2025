@@ -1,9 +1,9 @@
 SN,Strategy/Method,Key ingredients / processes,Battery Systems,Ref.
-1.,"Electrolyte additives",FEC,,"zhang2017fluoroethylene,michan2016fluoroethylene"
+1.,"Electrolyte additives",FEC,LiBs,"zhang2017fluoroethylene,michan2016fluoroethylene"
 1.,"Electrolyte additives","Vinylene carbonate (VC)",LiBs,"sano2011observation,michan2016fluoroethylene"
-1.,"Electrolyte additives","Nitrates: KNO3, LiNO3, AgNO3",,"liu2016lanthanum,peng2024converting,jiang2024multifunctional,wang2024impact,deng2024cyclosulfate"
-1.,"Electrolyte additives","Anhydrides: succinic anhydride",,"xie2021succinic,yang2023highly,jeong2015stabilizing"
-1.,"Electrolyte additives","Heptafluorobutyric anhydride",,han2022dual
+1.,"Electrolyte additives","Nitrates: KNO3, LiNO3, AgNO3",LMBs,"liu2016lanthanum,peng2024converting,jiang2024multifunctional,wang2024impact,deng2024cyclosulfate"
+1.,"Electrolyte additives","Anhydrides: succinic anhydride",LMBs,"xie2021succinic,yang2023highly,jeong2015stabilizing"
+1.,"Electrolyte additives","Heptafluorobutyric anhydride",LMBs,han2022dual
 1.,"Electrolyte additives","Lithium salts: Li[N(SO2F)2]--Li[N(SO2CF3)2], LiTFSI--LiBOB, Li[(FSO2)(n-C4F9SO2)N]",LMB,"miao2014novel,xiang2016enhanced,fang2017novel"
 1.,"Electrolyte additives","Organic reagents: Py13TFSI, 1,4-dioxane",,"li2016passivation,miao2016new"
 1.,"Electrolyte additives","ethyl alpha-cyanoacrylate, methyl viologen",,"hu2017poly,zhong2020effective"
