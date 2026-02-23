@@ -1,25 +1,25 @@
 SN,Electrolyte (Solute),Solvent/Environment,EW(V),Ion-conductivity (mS cm-1),Ref.
-1.,"Lithium perchlorate (LiClO4)","EC (ethylene carbonate) / DMC (dimethyl carbonate)",0.2 - 4,8.4,marom2010revisiting
-1.,"Lithium perchlorate (LiClO4)","PC (propylene carbonate)",~2,5.6,"ue1995mobility,zhou2013non"
-1.,"Lithium perchlorate (LiClO4)","PEO (poly(ethylene oxide))",<4.45,0.57,zou2023polybenzimidazole
-2.,"Lithium hexafluorophosphate (LiPF6)",EC/DMC,0.2 - 4,10.7,marom2010revisiting
-2.,"Lithium hexafluorophosphate (LiPF6)",PC,2.5 - 4.2,5.8,"ue1995mobility,hwang2018ionic,zhang2006review"
-3.,"Lithium tetrafluoroborate (LiBF4)",EC/DMC,2.5 - 5.9,4.9,borisevich2022algorithm
-3.,"Lithium tetrafluoroborate (LiBF4)",PC,4.2,3.4,"ue1995mobility,hwang2018ionic,zhang2006review"
-3.,"Lithium tetrafluoroborate (LiBF4)","poly(1,3-dioxolane)/fluoroethylene carbonate(FEC)",4.7,1.76,chen2025contriving
-4.,"Lithium hexafluoroarsenate (LiAsF6)",EC/DMC,4.5,11.1,xu2004nonaqueous
-4.,"Lithium hexafluoroarsenate (LiAsF6)",PC,-,5.7,"ue1995mobility,zhang2006review"
-5.,"Lithium nitrate (LiNO3)","Dimethyl sulfoxide/PC",~4.4,3.19,xu2004nonaqueous
-6.,"Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI)","PVDF-HFP (Poly(vinylidene fluoride -co-hexafluoropropylene))",0.05,0.46,he2021insights
-6.,"Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI)","EC/DEC (diethyl carbonate)",-,0.43,zhou2025tuning
-7.,"Lithium (methanesulfonyl) (trifluoromethanesulfonyl) imide (LiMTFSI)",EC/DEC,-,0.21,zhou2025tuning
-8.,"Lithium 1,1,1-trifluoro -N-[2-[2-(2-methoxyethoxy)ethoxy]ethyl] methanesulfonamide (LiFEA)",EC/DEC,>4.3,0.013,xia2023designing
-9.,"Lithium 2-[2-(2-methoxyethoxy)ethoxy] ethanesulfonyl (trifluoromethanesulfonyl)imide (LiETFSI)","BE (carbonate electrolyte)",~4.8,0.24,zhou2024rational
-10.,"Lithium (trifluoromethanesulfonyl)imide (LiSTFSI)","DME (dimethoxyethane)",3.75,10,lu2025breaking
-11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","MP (ethyl propionate)/FEC",>4.2,9.73,"han2011lithium,li2025electrolyte"
-11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","TFEO (tris(2,2,2-trifluoroethyl) orthoformate)/DME",>4.4,3,efaw2023localized
-11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","DEE (1,2-diethoxyethane)",4.4,5.01,li2025recent
-12.,"Lithium trifluoromethanesulfonate (LiOTf)","TTMS (2,2,2-trifluoroethyl trifluoromethanesulfonate)/TM",5.2,2.99,zhang2023multifunctional
-13.,"Lithium difluoride (oxalate) borate (LiDFOB)",EC/DMC,~4.4,~4.6,liu2024ultralow
-14.,"Lithium bisoxalate borate (LiBOB)",gamma-valerolactone,5.5,>4.9,teoh2024fluorine
-15.,"Lithium 4,5-dicyano-1,2,3-triazolate (LiDCTA)",EC/DMC,4.8,6.5,flachard20181
+1.,"Lithium perchlorate (LiClO4)","EC (ethylene carbonate) / DMC (dimethyl carbonate)",0.2 - 4,8.4,"[10.1149/1.3447750]"
+1.,"Lithium perchlorate (LiClO4)","PC (propylene carbonate)",~2,5.6,"[10.1149/1.2050056],[10.1021/jp4021678]"
+1.,"Lithium perchlorate (LiClO4)","PEO (poly(ethylene oxide))",<4.45,0.57,"[10.1016/j.cej.2023.142794]"
+2.,"Lithium hexafluorophosphate (LiPF6)",EC/DMC,0.2 - 4,10.7,"[10.1149/1.3447750]"
+2.,"Lithium hexafluorophosphate (LiPF6)",PC,2.5 - 4.2,5.8,"[10.1016/j.jpowsour.2006.07.074],[10.1149/1.2050056],[10.1021/acs.jpcc.8b06035]"
+3.,"Lithium tetrafluoroborate (LiBF4)",EC/DMC,2.5 - 5.9,4.9,"[10.1134/S1023193522110030]"
+3.,"Lithium tetrafluoroborate (LiBF4)",PC,4.2,3.4,"[10.1016/j.jpowsour.2006.07.074],[10.1149/1.2050056],[10.1021/acs.jpcc.8b06035]"
+3.,"Lithium tetrafluoroborate (LiBF4)","poly(1,3-dioxolane)/fluoroethylene carbonate(FEC)",4.7,1.76,"[10.1039/D4EE04011B]"
+4.,"Lithium hexafluoroarsenate (LiAsF6)",EC/DMC,4.5,11.1,"[10.1021/cr030203g]"
+4.,"Lithium hexafluoroarsenate (LiAsF6)",PC,-,5.7,"[10.1016/j.jpowsour.2006.07.074],[10.1149/1.2050056]"
+5.,"Lithium nitrate (LiNO3)","Dimethyl sulfoxide/PC",~4.4,3.19,x"[10.1021/cr030203g]"
+6.,"Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI)","PVDF-HFP (Poly(vinylidene fluoride -co-hexafluoropropylene))",0.05,0.46,"[10.1002/ange.202106389]"
+6.,"Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI)","EC/DEC (diethyl carbonate)",-,0.43,"[10.1002/adfm.202416800]"
+7.,"Lithium (methanesulfonyl) (trifluoromethanesulfonyl) imide (LiMTFSI)",EC/DEC,-,0.21,"[10.1002/adfm.202416800]"
+8.,"Lithium 1,1,1-trifluoro -N-[2-[2-(2-methoxyethoxy)ethoxy]ethyl] methanesulfonamide (LiFEA)",EC/DEC,>4.3,0.013,"[10.1038/s41560-023-01312-4]"
+9.,"Lithium 2-[2-(2-methoxyethoxy)ethoxy] ethanesulfonyl (trifluoromethanesulfonyl)imide (LiETFSI)","BE (carbonate electrolyte)",~4.8,0.24,"[10.1002/ange.202316717]"
+10.,"Lithium (trifluoromethanesulfonyl)imide (LiSTFSI)","DME (dimethoxyethane)",3.75,10,"[10.1038/s41560-024-01678-5]"
+11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","MP (ethyl propionate)/FEC",>4.2,9.73,"[10.1016/j.jpowsour.2010.12.040],[10.1002/ange.202409409]"
+11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","TFEO (tris(2,2,2-trifluoroethyl) orthoformate)/DME",>4.4,3,"[10.1038/s41563-023-01673-2]"
+11.,"Lithium bis(fluorosulfonyl)imide (LiFSI)","DEE (1,2-diethoxyethane)",4.4,5.01,"[10.1002/adfm.202409431]"
+12.,"Lithium trifluoromethanesulfonate (LiOTf)","TTMS (2,2,2-trifluoroethyl trifluoromethanesulfonate)/TM",5.2,2.99,"[10.1038/s41467-023-37900-5]"
+13.,"Lithium difluoride (oxalate) borate (LiDFOB)",EC/DMC,~4.4,~4.6,"[10.1002/ange.202400110]"
+14.,"Lithium bisoxalate borate (LiBOB)",gamma-valerolactone,5.5,>4.9,"[10.1002/adma.202310056]"
+15.,"Lithium 4,5-dicyano-1,2,3-triazolate (LiDCTA)",EC/DMC,4.8,6.5,"[10.1039/C8CC04835E]"
