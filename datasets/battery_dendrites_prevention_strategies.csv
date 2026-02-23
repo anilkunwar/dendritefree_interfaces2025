@@ -1,43 +1,43 @@
 SN,Strategy/Method,Key ingredients / processes,Battery Systems,Ref.
-1.,"Electrolyte additives",FEC,LiBs,"zhang2017fluoroethylene,michan2016fluoroethylene"
-1.,"Electrolyte additives","Vinylene carbonate (VC)",LiBs,"sano2011observation,michan2016fluoroethylene"
-1.,"Electrolyte additives","Nitrates: KNO3, LiNO3, AgNO3",LMBs,"liu2016lanthanum,peng2024converting,jiang2024multifunctional,wang2024impact,deng2024cyclosulfate"
-1.,"Electrolyte additives","Anhydrides: succinic anhydride",LMBs,"xie2021succinic,yang2023highly,jeong2015stabilizing"
-1.,"Electrolyte additives","Heptafluorobutyric anhydride",LMBs,han2022dual
-1.,"Electrolyte additives","Lithium salts: Li[N(SO2F)2]--Li[N(SO2CF3)2], LiTFSI--LiBOB, Li[(FSO2)(n-C4F9SO2)N]",LMB,"miao2014novel,xiang2016enhanced,fang2017novel"
-1.,"Electrolyte additives","Organic reagents: Py13TFSI, 1,4-dioxane",,"li2016passivation,miao2016new"
-1.,"Electrolyte additives","ethyl alpha-cyanoacrylate, methyl viologen",,"hu2017poly,zhong2020effective"
-1.,"Electrolyte additives","1,3-propanesulfonate",,deng2024cyclosulfate
-1.,"Electrolyte additives","Other: AlCl3, Li halides",,"jiang2024multifunctional,lu2015stable"
-1.,"Electrolyte additives","Lithium polysulfide",,li2015synergetic
-1.,"Electrolyte additives",LiNO3,,"liang2011improved,li2015synergetic"
-1.,"Electrolyte additives","Tetraethylammonium nitrate (TEAN)",,liu2023dual
-1.,"Electrolyte additives",CsNO3,,kim2015poreless
-1.,"Electrolyte additives",LiODFB,"LSB (Li-S battery)",wu2014effective
-1.,"Electrolyte additives",LiBOB,,xiong2012effect
-1.,"Electrolyte additives","La(NO3)3",,jia2016extremely
-1.,"Electrolyte additives","PYR1,14TFSI",,ma2014enhanced
-2.,"Artificial SEIs","Cu3N + SBR",,liu2016artificial
-2.,"Artificial SEIs",AlI3,,ma2017stable
-2.,"Artificial SEIs",Al2O3,,jing2015protected
-2.,"Artificial SEIs","Fluorinated polysulfonamide",,zhong2020effective
-2.,"Artificial SEIs","Li3PO4 layer","LiBs / LMB","li2016artificial,wang2017li"
-2.,"Artificial SEIs",LiSFSI,,"zhong2020effective,li2019polymer"
-2.,"Artificial SEIs","Polyvinylidene difluoride",,"xu2018artificial,luo2018high"
-2.,"Artificial SEIs",Nafion,LSB,"xu2019dual,luo2017dual"
-2.,"Artificial SEIs","Gas processing (N2)","LMB / LSB","ma2014lithium,koch2015density"
-3.,"Super-concentrated electrolyte","Dimethyl sulfoxide (DMSO)-based electrolyte",Li-O2,togasaki2016enhanced
-3.,"Super-concentrated electrolyte","LiFSI-DME electrolyte",LMB,qian2015high
-3.,"Super-concentrated electrolyte","Highly porous glass fiber",LMB,wu2017interplay
-4.,"Solid-State Electrolyte","Solid inorganic electrolytes (PEO + LiTFSI), Li3N",,"liu2020controlling,alpen1977ionic"
-4.,"Solid-State Electrolyte","Gel polymer electrolyte",SSB,song1999review
-4.,"Solid-State Electrolyte","Inorganic solid electrolytes (composites, coating)",,"lin2016high,wang2017conformal"
-5.,"Nanostructured Electrolyte","Nanocomposite electrolytes",,"tu2015nanostructured,yoon2021nanostructured"
-5.,"Nanostructured Electrolyte","SiO2 composite electrolyte",LMB,zhou2016sio2
-5.,"Nanostructured Electrolyte","Ionic liquid electrolytes",,"lu2012ionic,li2016single"
-6.,"Main material modification","Structured anode",,duong2024two
-6.,"Main material modification","Polyolefin separator",LMB,hao2021functional
-6.,"Main material modification","Cathode modification",,ling2020integrated
-7.,"Cell operation","Charging / discharging rate",,Patino2020-EnergyStorage
-7.,"Cell operation","Pulse plating",LMB,melsheimer2022modeling
-7.,"Cell operation","Convection cell",,dornbusch2014experimental
+1.,"Electrolyte additives",FEC,LiBs,"[10.1002/adfm.201605989],[10.1021/acs.chemmater.6b02282]"
+1.,"Electrolyte additives","Vinylene carbonate (VC)",LiBs,"[10.1021/acs.chemmater.6b02282],[10.1016/j.jpowsour.2010.12.023]"
+1.,"Electrolyte additives","Nitrates: KNO3, LiNO3, AgNO3",LMBs,"[10.1021/acsami.5b12231],[10.1016/j.cclet.2023.109274],[10.1002/aenm.202400365],[10.1016/j.cjsc.2023.100203],[10.1016/j.est.2024.111683]"
+1.,"Electrolyte additives","Anhydrides: succinic anhydride",LMBs,"[10.1039/D1TA04043J],[10.1016/j.jechem.2022.11.042],[10.1016/j.electacta.2015.04.168]"
+1.,"Electrolyte additives","Heptafluorobutyric anhydride",LMBs,"[10.1007/s12598-021-01878-y]"
+1.,"Electrolyte additives","Lithium salts: Li[N(SO2F)2]--Li[N(SO2CF3)2], LiTFSI--LiBOB, Li[(FSO2)(n-C4F9SO2)N]",LMB,"[10.1016/j.jpowsour.2014.08.011],[10.1016/j.jpowsour.2016.04.017],[10.1021/acsami.6b03857]"
+1.,"Electrolyte additives","Organic reagents: Py13TFSI, 1,4-dioxane",,"[PMC5323882],[srep21771]"
+1.,"Electrolyte additives","ethyl alpha-cyanoacrylate, methyl viologen",,"[10.1021/acs.chemmater.7b00091],[10.1039/D0MA00260G]"
+1.,"Electrolyte additives","1,3-propanesulfonate",,"[10.1016/j.est.2024.111683]"
+1.,"Electrolyte additives","Other: AlCl3, Li halides",,"[10.1002/aenm.202400365],[10.1016/j.jpowsour.2015.01.030]"
+1.,"Electrolyte additives","Lithium polysulfide",,"[10.1038/ncomms8436]"
+1.,"Electrolyte additives",LiNO3,,"[10.1038/ncomms8436],[10.1016/j.jpowsour.2011.08.027]"
+1.,"Electrolyte additives","Tetraethylammonium nitrate (TEAN)",,"[10.3390/batteries9090444]"
+1.,"Electrolyte additives",CsNO3,,"[10.1002/cnma.201500055]"
+1.,"Electrolyte additives",LiODFB,"LSB (Li-S battery)","[10.1021/am504345s]"
+1.,"Electrolyte additives",LiBOB,,"[10.1007/s11581-011-0628-1]"
+1.,"Electrolyte additives","La(NO3)3",,"[10.1021/acsami.6b03897]"
+1.,"Electrolyte additives","PYR1,14TFSI",,"[10.1016/j.ssi.2013.10.012]"
+2.,"Artificial SEIs","Cu3N + SBR",,"[10.1002/adma.201605531]"
+2.,"Artificial SEIs",AlI3,,"[10.1021/acs.chemmater.6b03687]"
+2.,"Artificial SEIs",Al2O3,,"[10.1039/C5TA01960J]"
+2.,"Artificial SEIs","Fluorinated polysulfonamide",,"[10.1039/D0MA00260G]"
+2.,"Artificial SEIs","Li3PO4 layer","LiBs / LMB","[10.1002/adma.201504526],[10.1016/j.jpowsour.2016.12.078]"
+2.,"Artificial SEIs",LiSFSI,,"[10.1039/D0MA00260G],[10.1021/acsami.9b19900]"
+2.,"Artificial SEIs","Polyvinylidene difluoride",,"[10.1002/adfm.201705838],[10.1002/aenm.201701482]"
+2.,"Artificial SEIs",Nafion,LSB,"[10.1002/adma.201808392],[10.1039/C6CC08930E]"
+2.,"Artificial SEIs","Gas processing (N2)","LMB / LSB","[10.1039/C4CC06995A],[10.1016/j.jpowsour.2015.07.027]"
+3.,"Super-concentrated electrolyte","Dimethyl sulfoxide (DMSO)-based electrolyte",Li-O2,"[10.1016/j.jpowsour.2015.12.118]"
+3.,"Super-concentrated electrolyte","LiFSI-DME electrolyte",LMB,"[10.1038/ncomms7362]"
+3.,"Super-concentrated electrolyte","Highly porous glass fiber",LMB,"[10.1016/j.nanoen.2017.08.005]"
+4.,"Solid-State Electrolyte","Solid inorganic electrolytes (PEO + LiTFSI), Li3N",,"[10.1021/acsenergylett.9b02660],[10.1063/1.89283]"
+4.,"Solid-State Electrolyte","Gel polymer electrolyte",SSB,"[10.1016/S0378-7753(98)00193-1]"
+4.,"Solid-State Electrolyte","Inorganic solid electrolytes (composites, coating)",,"[10.1021/acs.nanolett.5b04117],[10.1021/acs.nanolett.6b04695]"
+5.,"Nanostructured Electrolyte","Nanocomposite electrolytes",,"[10.1021/acs.accounts.5b00344],[10.1007/s13233-021-9078-0]"
+5.,"Nanostructured Electrolyte","SiO2 composite electrolyte",LMB,"[10.1002/aenm.201502214]"
+5.,"Nanostructured Electrolyte","Ionic liquid electrolytes",,"[10.1002/adma.201201547],[10.1039/C6TA08018A]"
+6.,"Main material modification","Structured anode",,"[10.1016/j.jelechem.2024.118227]"
+6.,"Main material modification","Polyolefin separator",LMB,"[10.1039/D0MH01167C ]"
+6.,"Main material modification","Cathode modification",,"[10.1021/acsami.0c16390]"
+7.,"Cell operation","Charging / discharging rate",,"[10.1002/est2.188]"
+7.,"Cell operation","Pulse plating",LMB,"[10.1016/j.electacta.2022.141227]"
+7.,"Cell operation","Convection cell",,"[10.1149/2.0891502jes]"
