@@ -29,3 +29,4 @@ b. Publications trends datasets
 
 
 # How to cite this work: 
+Y. Li, S. Poudel, S. Kumari, E. Azqadan, A. Kunwar, and N. Moelans, “Roadmaps for dendrite suppression in next generation lithium-ion batteries: Toward sustainable energy solutions,” Energy Storage Materials, p. 105000, Feb. 2026, https://doi.org/10.1016/j.ensm.2026.105000 .
