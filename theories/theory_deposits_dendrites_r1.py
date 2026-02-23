@@ -13,6 +13,17 @@ st.markdown("""
 This app presents a curated collection of theoretical models that describe the formation and growth 
 of dendrites in metal (Li, Zn, Na, etc.) ion batteries. Each model is accompanied by its physical 
 concepts, mathematical expression, original reference, and a summary of its applications and limitations.
+
+*All mathematical formulas are rendered with LaTeX for clarity.*
+""")
+
+# Sidebar with additional info
+st.sidebar.header("About this app")
+st.sidebar.markdown("""
+This interactive tool lets you explore key models of dendrite formation.  
+Select a model from the dropdown to see its details.
+
+**LaTeX rendering** is enabled throughout – look for formulas enclosed in `$...$` (inline) or `$$...$$` (display).
 """)
 
 # Data for each model (based on the table and summary provided)
@@ -20,7 +31,7 @@ models = [
     {
         "name": "Wranglen Theory (1960)",
         "mechanisms": "Concept of critical current density ($j_c$) in aqueous solutions; dendrites grow when the global or local current density exceeds $j_c$.",
-        "math": r"Condition for dendrite growth: $j_{\text{global}} > j_c$ or $j_{\text{local}} > j_c$",
+        "math": "Condition for dendrite growth: $j_{\\text{global}} > j_c$ or $j_{\\text{local}} > j_c$",
         "reference": "G. Wranglen, *Electrochimica Acta* **1960**, 2, 130–132. [77]",
         "applications": [
             "Predicting the onset of dendrites in electrodeposition processes (e.g., metal plating).",
@@ -35,7 +46,7 @@ models = [
     {
         "name": "Barton–Bockris Model (1962) / Diggle et al. extension (1969)",
         "mechanisms": "Maximum velocity of dendrite growth in ionic solutions, assuming spherical diffusion and tip-controlled growth.",
-        "math": r"$v_{\text{max}} = j_0 \frac{V \eta}{RT}$",
+        "math": "$v_{\\text{max}} = j_0 \\frac{V \\eta}{RT}$",
         "reference": "J. L. Barton & J. O. Bockris, *Proc. R. Soc. Lond. A* **1962**, 268, 485–505. [78]; J. W. Diggle et al., *J. Electrochem. Soc.* **1969**, 116, 1503. [79]",
         "applications": [
             "Analyzing growth rates in molten salts or liquid electrolytes.",
@@ -49,7 +60,7 @@ models = [
     {
         "name": "Kim–Jorne Theory (1980)",
         "mechanisms": "Dendrite growth mechanism at the edge of a rotating disk electrode, focusing on mass transfer and limiting current.",
-        "math": r"$c_s = c_b \left(1 - \frac{j}{j_l}\right)$ where $c_s$ = surface concentration, $c_b$ = bulk concentration, $j_l$ = limiting current density.",
+        "math": "$c_s = c_b \\left(1 - \\frac{j}{j_l}\\right)$ where $c_s$ = surface concentration, $c_b$ = bulk concentration, $j_l$ = limiting current density.",
         "reference": "J. T. Kim & J. Jorné, *J. Electrochem. Soc.* **1980**, 127, 8. [80]",
         "applications": [
             "Mass-transfer-limited processes in rotating electrodes.",
@@ -91,11 +102,11 @@ models = [
     {
         "name": "Monroe–Newman Model (2003)",
         "mechanisms": "Dendrite propagation in lithium/polymer cells under galvanostatic conditions; surface‑energy controlled with tip curvature.",
-        "math": r"$j_L = \frac{2c_b D F}{(1-t^0_+)L}$",
+        "math": "$j_L = \\frac{2c_b D F}{(1-t^0_+)L}$",
         "reference": "C. Monroe & J. Newman, *J. Electrochem. Soc.* **2003**, 150, A1377. [83]",
         "applications": [
             "Polymer electrolytes; predicts growth velocity/height.",
-            "Applied to design stiff electrolytes (shear modulus criterion: $Y > 2 Y_{\text{Li}}$)."
+            "Applied to design stiff electrolytes (shear modulus criterion: $Y > 2 Y_{\\text{Li}}$)."
         ],
         "limitations": [
             "Assumes elastic deformation only (ignores plasticity).",
@@ -119,7 +130,7 @@ models = [
     {
         "name": "Heterogeneous Nucleation Model (2013) – Ely & Garcia",
         "mechanisms": "Nucleation at heterointerfaces; overpotential‑controlled critical radius for dendrite stability.",
-        "math": r"Equation incomplete in source (critical radius concept).",
+        "math": "Equation incomplete in source (critical radius concept).",
         "reference": "D. R. Ely & R. E. García, *J. Electrochem. Soc.* **2013**, 160, A662. [85]",
         "applications": [
             "Predicting deposit morphology and energy barriers in negative electrodes.",
@@ -184,17 +195,17 @@ selected_model = next(m for m in models if m["name"] == selected_name)
 # Display the information
 st.header(selected_model["name"])
 
-# Physics (Mechanisms)
+# Physics (Mechanisms) – using markdown for LaTeX rendering
 st.subheader("📘 Physics / Mechanisms")
-st.write(selected_model["mechanisms"])
+st.markdown(selected_model["mechanisms"])
 
-# Mathematical expression
+# Mathematical expression – using markdown to support mixed text/LaTeX
 st.subheader("📐 Mathematical Expression")
-st.latex(selected_model["math"])
+st.markdown(selected_model["math"])
 
 # Reference
 st.subheader("📄 Reference")
-st.write(selected_model["reference"])
+st.markdown(selected_model["reference"])
 
 # Applications
 st.subheader("✅ Applications")
@@ -208,4 +219,4 @@ for lim in selected_model["limitations"]:
 
 # Optional separator and footer
 st.markdown("---")
-st.markdown(" Use the dropdown to explore other models.")
+st.markdown("⬆️ Use the dropdown to explore other models.")
