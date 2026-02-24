@@ -6,4 +6,20 @@ The tabular datasets of :
    
      a. Critical current density
    
-     b. N ...
+     b. Cycle life
+
+     c. Coulombic Efficiency
+      
+     d. Energy density
+      
+     e. Areal capacity
+      
+     f. Operating Temperature Window
+      
+     g. Mechanical modulus
+
+     h. Ionic conductivity
+
+     i. Electronic conductivity
+
+     j. Defect density
