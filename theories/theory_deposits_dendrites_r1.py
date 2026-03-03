@@ -130,7 +130,7 @@ models = [
     {
         "name": "Heterogeneous Nucleation Model (2013) – Ely & Garcia",
         "mechanisms": "Nucleation at heterointerfaces; overpotential‑controlled critical radius for dendrite stability.",
-        "math": "Equation incomplete in source (critical radius concept).",
+        "math": r"$\Delta G_c = \dfrac{16\pi \gamma_{NE}^3 (2+\cos\theta)\sin^4(\theta/2)}{3(\Delta G_f)^2(1+\hat{\eta})^2}$ (or $r^*_{eq} = -\dfrac{2\gamma_{NE}\Omega_1}{zF\eta + \Delta G_f}$)",
         "reference": "D. R. Ely & R. E. García, *J. Electrochem. Soc.* **2013**, 160, A662. [85]",
         "applications": [
             "Predicting deposit morphology and energy barriers in negative electrodes.",
