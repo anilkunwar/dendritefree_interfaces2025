@@ -6,9 +6,11 @@ import glob
 import os
 
 # ------------------------------
-# Configuration
+# Configuration – robust path
 # ------------------------------
-DATA_DIR = "./battery_metrics"          # Folder containing the YAML/JSON files
+# Use the directory where this script is located
+SCRIPT_DIR = os.path.dirname(__file__)
+DATA_DIR = os.path.join(SCRIPT_DIR, "battery_metrics")
 SUPPORTED_EXTENSIONS = ["*.yaml", "*.yml", "*.json"]
 
 # ------------------------------
@@ -19,7 +21,9 @@ def load_all_parameters(data_dir):
     """Scan the data directory, load all YAML/JSON files and return a list of parameter dicts."""
     parameter_list = []
     if not os.path.exists(data_dir):
-        st.error(f"Data directory '{data_dir}' not found.")
+        # Instead of returning empty, we raise a clear error that will be shown in the app
+        st.error(f"Data directory not found at: **{data_dir}**\n\n"
+                 f"Please create this folder and place the YAML/JSON files inside.")
         return parameter_list
 
     for ext in SUPPORTED_EXTENSIONS:
@@ -46,6 +50,8 @@ def load_all_parameters(data_dir):
             except Exception as e:
                 st.warning(f"Error loading {filepath}: {e}")
 
+    # Sort alphabetically by section name for a cleaner dropdown
+    parameter_list.sort(key=lambda x: x['section'].lower())
     return parameter_list
 
 # ------------------------------
@@ -55,10 +61,13 @@ st.set_page_config(page_title="Battery Decathlon Metrics", layout="wide")
 st.title("🔋 The Decathlon of Interfacial Stability")
 st.markdown("Select a parameter from the dropdown to view its technical metrics and development roadmap.")
 
+# Show the data directory being used (helpful for debugging)
+st.caption(f"Looking for data files in: `{DATA_DIR}`")
+
 parameters = load_all_parameters(DATA_DIR)
 
 if not parameters:
-    st.info(f"No parameter files found in `{DATA_DIR}`. Please ensure the YAML/JSON files are placed there.")
+    st.info("No parameter files found. Please ensure the YAML/JSON files are placed in the folder above.")
     st.stop()
 
 # Create dropdown choices: show "section (symbol)" if symbol exists, else just section
@@ -87,14 +96,20 @@ for idx, table in enumerate(selected_param['tables']):
         # Convert rows to DataFrame
         if 'columns' in table and 'rows' in table:
             df = pd.DataFrame(table['rows'])
-            # Reorder columns according to the 'columns' list (if needed)
-            if list(df.columns) != table['columns']:
-                df = df[table['columns']]
+            # Ensure columns are in the order specified (if they exist in the DataFrame)
+            # Note: This reorders and also drops any extra columns not in the list
+            existing_cols = [col for col in table['columns'] if col in df.columns]
+            if existing_cols:
+                df = df[existing_cols]
+            # If some columns from the list are missing, show a warning
+            missing_cols = set(table['columns']) - set(df.columns)
+            if missing_cols:
+                st.warning(f"Missing columns in data: {missing_cols}")
             st.dataframe(df, use_container_width=True, hide_index=True)
         else:
-            st.warning("Table format is incomplete (missing columns or rows).")
+            st.warning("Table format is incomplete (missing 'columns' or 'rows').")
 
         st.divider()
 
 # Optional: show the source filename for reference
-st.caption(f"Source: `{selected_param['file']}`")
+st.caption(f"Source file: `{selected_param['file']}`")
