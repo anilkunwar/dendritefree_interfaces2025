@@ -1,0 +1,14 @@
+{
+  "section": "Electronic conductivity",
+  "symbol": "σ_e",
+  "tables": [
+    {
+      "caption": "Lowering σ is a key priority in the pursuit of resilient batteries.",
+      "columns": ["Timeframe", "Electronic conductivity (S/cm)"],
+      "rows": [
+        {"Timeframe": "2025--2030", "Electronic conductivity (S/cm)": "≤10^{-10}"},
+        {"Timeframe": "2035--2040", "Electronic conductivity (S/cm)": "≤10^{-12}"}
+      ]
+    }
+  ]
+}
