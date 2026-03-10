@@ -1,0 +1,17 @@
+{
+  "section": "Ionic Conductivity",
+  "symbol": "σ_ion",
+  "tables": [
+    {
+      "caption": "The physical state and composition of electrolytes along mapped with the range of values for σ_ion",
+      "columns": ["Electrolyte type", "Ionic conductivity (S/cm)"],
+      "rows": [
+        {"Electrolyte type": "Liquid electrolyte", "Ionic conductivity (S/cm)": "10^{-2}"},
+        {"Electrolyte type": "Polymer electrolyte", "Ionic conductivity (S/cm)": "10^{-5}--10^{-4}"},
+        {"Electrolyte type": "Composite electrolyte", "Ionic conductivity (S/cm)": "10^{-4}--10^{-3}"},
+        {"Electrolyte type": "Excellent solid sulfide", "Ionic conductivity (S/cm)": "10^{-3}--10^{-2}"},
+        {"Electrolyte type": "Ideal target", "Ionic conductivity (S/cm)": "≥10^{-2}"}
+      ]
+    }
+  ]
+}
