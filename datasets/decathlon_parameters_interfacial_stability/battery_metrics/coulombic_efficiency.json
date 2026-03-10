@@ -1,0 +1,16 @@
+{
+  "section": "Coulombic Efficiency",
+  "symbol": "ε",
+  "tables": [
+    {
+      "caption": "Quantification of ε in different systems.",
+      "columns": ["Technical level", "CE", "Remarks"],
+      "rows": [
+        {"Technical level": "Traditional Li metal", "CE": "95--98%", "Remarks": "Sharp decline"},
+        {"Technical level": "Lab system", "CE": "98--99.5%", "Remarks": "Controllable"},
+        {"Technical level": "Advanced system", "CE": "99.5--99.8%", "Remarks": "Approaching practicality"},
+        {"Technical level": "2035+ target", "CE": "≥99.9%", "Remarks": "High level"}
+      ]
+    }
+  ]
+}
