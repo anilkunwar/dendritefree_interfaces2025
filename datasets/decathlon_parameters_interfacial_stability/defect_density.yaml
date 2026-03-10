@@ -1,0 +1,12 @@
+section: "Defect density"
+symbol: "ζ"
+tables:
+  - caption: "Porosity (a component of ζ vector) is an issue of concern in battery manufacturing sector."
+    columns:
+      - "Electrolyte state"
+      - "Defect level"
+    rows:
+      - {"Electrolyte state": "Conventional sintering SSE", "Defect level": "5--10% porosity"}
+      - {"Electrolyte state": "Optimized process", "Defect level": "<3% porosity"}
+      - {"Electrolyte state": "High-end dense SSE", "Defect level": "<1% porosity"}
+      - {"Electrolyte state": "Ideal target", "Defect level": "Approaching 0"}
