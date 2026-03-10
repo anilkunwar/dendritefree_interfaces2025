@@ -1,0 +1,11 @@
+section: "Energy density"
+symbol: "ω"
+tables:
+  - caption: "Greater energy density in dendrite-free batteries are the goals in 2040 + batteries."
+    columns:
+      - "Type"
+      - "Energy density (Wh/kg)"
+    rows:
+      - {"Type": "Traditional lithium battery", "Energy density (Wh/kg)": "50--300"}
+      - {"Type": "Laboratory scale battery", "Energy density (Wh/kg)": "350--450"}
+      - {"Type": "2035+ target", "Energy density (Wh/kg)": "450--500+"}
