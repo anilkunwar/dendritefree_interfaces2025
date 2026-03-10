@@ -1,0 +1,10 @@
+section: "Mechanical modulus of electrolyte"
+symbol: "Y"
+tables:
+  - caption: "Shear modulus estimated for solid electrolytes at nearby and distant future design timelines."
+    columns:
+      - "Timeframe"
+      - "Mechanical modulus (GPa)"
+    rows:
+      - {"Timeframe": "2025--2030", "Mechanical modulus (GPa)": "≥5--10"}
+      - {"Timeframe": "2035--2040", "Mechanical modulus (GPa)": "≥20"}
