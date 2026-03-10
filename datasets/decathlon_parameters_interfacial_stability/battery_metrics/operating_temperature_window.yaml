@@ -1,0 +1,20 @@
+section: "Operating temperature window"
+symbol: "ΔT"
+tables:
+  - caption: "Thermal zones and their impact on battery reliability."
+    columns:
+      - "Temperature range"
+      - "Effect"
+    rows:
+      - {"Temperature range": "<0°C", "Effect": "Rapid dendrite growth"}
+      - {"Temperature range": "0--25°C", "Effect": "Laboratory standard range"}
+      - {"Temperature range": "25--45°C", "Effect": "Most stable operational range"}
+      - {"Temperature range": ">60°C", "Effect": "Thermal failure and decomposition risk"}
+  - caption: "Target operating temperature window across future timelines."
+    columns:
+      - "Timeframe"
+      - "Temperature Range"
+      - "ΔT Milestone"
+    rows:
+      - {"Timeframe": "2025--2030", "Temperature Range": "0 to 50°C", "ΔT Milestone": "50°C"}
+      - {"Timeframe": "2035--2040", "Temperature Range": "-20 to 80°C", "ΔT Milestone": "100°C"}
