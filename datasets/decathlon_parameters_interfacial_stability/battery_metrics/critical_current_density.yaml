@@ -1,0 +1,22 @@
+section: "Critical Current Density (CCD)"
+symbol: "i_C"
+tables:
+  - caption: "i_C for different technical conditions and the assessments."
+    columns:
+      - "Technical stage"
+      - "CCD (mA/cm²)"
+      - "Influence"
+    rows:
+      - {"Technical stage": "Liquid electrolyte", "CCD (mA/cm²)": "0.5--1", "Influence": "Dendrite formation"}
+      - {"Technical stage": "Advanced liquid electrolyte", "CCD (mA/cm²)": "1--3", "Influence": "Partially dendrite-free"}
+      - {"Technical stage": "Solid-state electrolyte", "CCD (mA/cm²)": "1--5", "Influence": "Unstable interface"}
+      - {"Technical stage": "Advanced SSE + interface energy", "CCD (mA/cm²)": "5--10", "Influence": "Approaching practicality"}
+      - {"Technical stage": "2035+ target", "CCD (mA/cm²)": ">10", "Influence": "Fast-charging level"}
+  - caption: "Chronological design roadmap for i_C."
+    columns:
+      - "Timeframe"
+      - "Research priority"
+      - "Target KPI"
+    rows:
+      - {"Timeframe": "2025--2030", "Research priority": "Stable SEI design", "Target KPI": "CCD > 5 mA/cm²"}
+      - {"Timeframe": "2035--2040", "Research priority": "Industrial LMB", "Target KPI": "CCD > 10 mA/cm²"}
