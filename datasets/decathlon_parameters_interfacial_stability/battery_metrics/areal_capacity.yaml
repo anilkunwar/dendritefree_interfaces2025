@@ -1,0 +1,10 @@
+section: "Areal Capacity"
+symbol: "Γ"
+tables:
+  - caption: "Increment in areal capacity is a necessity for future batteries."
+    columns:
+      - "Timeframe"
+      - "Areal capacity (mAh/cm²)"
+    rows:
+      - {"Timeframe": "2025--2030", "Areal capacity (mAh/cm²)": "≥3"}
+      - {"Timeframe": "2035--2040", "Areal capacity (mAh/cm²)": "≥5"}
