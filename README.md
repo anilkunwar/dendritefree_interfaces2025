@@ -25,6 +25,9 @@ b. Publications trends datasets
 
 # Roadmap and Battery Vision
 [![battery](https://img.shields.io/badge/roadmap1-streamlit-red)](https://dendritefree-batteries-future-roadmap1.streamlit.app/)  (basic sketch)
+
+
+[![battery](https://img.shields.io/badge/stabilityefficiency1-streamlit-red)](https://stable-efficient-rechargeablebatteries1.streamlit.app/)  (decathlon of interfacial stability)
    
 
 
