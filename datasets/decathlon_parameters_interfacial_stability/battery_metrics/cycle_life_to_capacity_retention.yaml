@@ -1,0 +1,21 @@
+section: "Cycle life to 0.8 capacity retention"
+symbol: "N"
+tables:
+  - caption: "Correlation between technical level and cycle life capacity."
+    columns:
+      - "Technical level"
+      - "N (Cycles)"
+      - "Remarks"
+    rows:
+      - {"Technical level": "Traditional Li metal", "N (Cycles)": "<100", "Remarks": "Unstable interface"}
+      - {"Technical level": "Lab system", "N (Cycles)": "100--300", "Remarks": "Laboratory scale"}
+      - {"Technical level": "Advanced solid-state system", "N (Cycles)": "300--1000", "Remarks": "Approaching practicality"}
+      - {"Technical level": "2035+ target", "N (Cycles)": "800--1500+", "Remarks": "Industrial grade"}
+  - caption: "Chronological research focus and target milestones for N."
+    columns:
+      - "Timeframe"
+      - "Research focus"
+      - "Targets/Goals"
+    rows:
+      - {"Timeframe": "2025--2030", "Research focus": "Interface stabilization", "Targets/Goals": ">300 cycles"}
+      - {"Timeframe": "2035--2040", "Research focus": "Industrial LMB", "Targets/Goals": ">1500 cycles"}
